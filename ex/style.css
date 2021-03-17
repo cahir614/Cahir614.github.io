@@ -1,9 +1,54 @@
 body {
+	
 	color: #545454;
 	background-color: #FFF9ED;
 	font-family: Georgia, serif;
-	text-align: left;
-	margin-left: 70px;
+	text-align: center-left;
+	margin: 70px 70px;
 }
 
-	
+div a {
+	color: #545454;
+}
+
+lolzhome {
+	text-align: center;
+}
+
+img {
+	border-radius: 10%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+h0 {
+	font-size:4rem;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+footer {
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 30%;
+	background: #FFCE75;
+	color: #545454;
+	padding: 40px;
+	text-align: center;
+}
+
+footer img {
+	box-shadow: none;
+	display: inline;
+	border-radius: 5px;
+	width: 80px;
+	margin: 0 auto 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
