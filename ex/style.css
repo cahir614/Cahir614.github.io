@@ -15,25 +15,32 @@ lolzhome {
 	text-align: center;
 }
 div a {
-	color: #545454;
+	color: #f0ede6;
 }
 
 img {
 	border-radius: 10%;
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 10px 10px 5px black;
 }
 
 h0 {
 	font-size:4rem;
 	text-shadow: 2px 2px 2px #000000;
 }
-
-footer {
-	box-shadow: 10px 10px 5px grey;
+food {
+	box-shadow: 10px 10px 5px black;
+	width: 50%;
 	border-radius: 30%;
-	background: #FFCE75;
-	color: #545454;
-	padding: 40px;
+	padding: 10px;
+	color: #dad4c2;
+	background: rgba(25,25,25,0.5);
+}
+footer {
+	box-shadow: 10px 10px 5px black;
+	border-radius: 30%;
+	background: rgba(25,25,25,0.5);
+	color:#f0ede6;
+	padding: 30px;
 }
 
 footer img {
