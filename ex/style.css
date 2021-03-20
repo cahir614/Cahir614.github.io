@@ -6,6 +6,10 @@ body {
 	text-align: center-left;
 	margin: 10px 70px 10px 70px;  /*top right bottom left*/
 	background-image: url("/ex/pin.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 lolzhome {
 	text-align: center;
