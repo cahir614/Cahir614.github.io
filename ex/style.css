@@ -1,7 +1,5 @@
 body {
-	
-	color: #545454;
-	background-color: #FFF9ED;
+	color: #f0ede6;
 	font-family: Georgia, serif;
 	text-align: center-left;
 	margin: 10px 70px 10px 70px;  /*top right bottom left*/
@@ -11,11 +9,9 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 }
+
 lolzhome {
 	text-align: center;
-}
-div a {
-	color: #f0ede6;
 }
 
 img {
@@ -27,19 +23,19 @@ h0 {
 	font-size:4rem;
 	text-shadow: 2px 2px 2px #000000;
 }
+
 food {
 	box-shadow: 10px 10px 5px black;
 	width: 50%;
 	border-radius: 30%;
 	padding: 10px;
-	color: #f0ede6;
 	background: rgba(25,25,25,0.6);
 }
+
 footer {
 	box-shadow: 10px 10px 5px black;
 	border-radius: 30%;
 	background: rgba(25,25,25,0.6);
-	color: #f0ede6;
 	padding: 30px;
 }
 
