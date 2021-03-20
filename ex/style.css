@@ -5,6 +5,7 @@ body {
 	font-family: Georgia, serif;
 	text-align: center-left;
 	margin: 10px 70px 10px 70px;  /*top right bottom left*/
+	background-image: url("/ex/pin.jpg");
 }
 lolzhome {
 	text-align: center;
