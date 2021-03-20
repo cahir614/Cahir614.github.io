@@ -2,24 +2,31 @@
 
 <channel>
 
-<title>This is my Web Page</title>
+<title>Meine Rezeptseite</title>
 
 <link>http://cahir614.github.io/</link>
 
-<description> Read more to learn about my corporation that makes lots of little widgets for your pets! </description>
+<description> Viele neue Rezepte! </description>
 
-<language>en-us</language>
+<language>de</language>
 
 <item>
-
-<title> This is my First Article </title>
-
+<title>Sushi</title>
 <link>http://cahir614.github.io/Sushi/</link>
+<description>Sushi Rezept von Nils</description>
+</item>
 
-<description> CMake Sushi </description>
+<item>
+<title>Linseneintopf</title>
+<link>http://cahir614.github.io/Linseneintopf/</link>
+<description>Rezept von Nils</description>
+</item>
 
+<item>
+<title>Curry mit Reis</title>
+<link>http://cahir614.github.io/CurryMitReis/</link>
+<description>Rezept von Nils</description>
 </item>
 
 </channel>
-
 </rss>
