@@ -6,23 +6,23 @@
 <title>Meine Rezeptseite</title>
 <link>http://cahir614.github.io/</link>
 <description> Viele neue Rezepte! </description>
-<image><url>https://www.cahir614.github.io/es/favicon.ico</url></image>
+<image><url>/ex/favicon.ico</url></image>
 
 <item>
 <title>Sushi</title>
-<link>http://cahir614.github.io/Sushi/</link>
+<link>/Sushi/</link>
 <description>Sushi Rezept von Nils</description>
 </item>
 
 <item>
 <title>Linseneintopf</title>
-<link>http://cahir614.github.io/Linseneintopf/</link>
+<link>/Linseneintopf/</link>
 <description>Rezept von Nils</description>
 </item>
 
 <item>
 <title>Curry mit Reis</title>
-<link>http://cahir614.github.io/CurryMitReis/</link>
+<link>/CurryMitReis/</link>
 <description>Rezept von Nils</description>
 </item>
 
