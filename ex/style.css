@@ -32,14 +32,14 @@ food {
 	width: 50%;
 	border-radius: 30%;
 	padding: 10px;
-	color: #dad4c2;
-	background: rgba(25,25,25,0.5);
+	color: #f0ede6;
+	background: rgba(25,25,25,0.6);
 }
 footer {
 	box-shadow: 10px 10px 5px black;
 	border-radius: 30%;
-	background: rgba(25,25,25,0.5);
-	color:#f0ede6;
+	background: rgba(25,25,25,0.6);
+	color: #f0ede6;
 	padding: 30px;
 }
 
