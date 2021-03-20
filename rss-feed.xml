@@ -4,14 +4,18 @@
 <channel>
 
 <title>Meine Rezeptseite</title>
-<link>http://cahir614.github.io/</link>
+
 <description> Viele neue Rezepte! </description>
-<image><url>/ex/favicon.ico</url></image>
+<image>
+<title>Rezepte</title>
+<url>/ex/hamburger.png</url>
+<link>http://cahir614.github.io/</link>
+</image>
 
 <item>
 <title>Sushi</title>
 <link>/Sushi/</link>
-<description>Sushi Rezept von Nils</description>
+<description>Rezept von Nils</description>
 </item>
 
 <item>
