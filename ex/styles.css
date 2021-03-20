@@ -1,7 +1,7 @@
 body {
 	color: #f0ede6;
 	font-family: Georgia, serif;
-	text-align: center;
+	text-align: center-left;
 	margin: 10px 70px 10px 70px;  /*top right bottom left*/
 	background-image: url("/ex/pin.jpg");
 	background-position: center center;
@@ -10,18 +10,10 @@ body {
 	background-size: cover;
 }
 
-a {
-	color: #f0ede6;
-}
 
 img {
 	border-radius: 10%;
 	box-shadow: 10px 10px 5px black;
-}
-
-h0 {
-	font-size:4rem;
-	text-shadow: 2px 2px 2px #000000;
 }
 
 food {
@@ -33,28 +25,4 @@ food {
 	background: rgba(25,25,25,0.6);
 }
 
-footer {
-	box-shadow: 10px 10px 5px black;
-	border-radius: 30%;
-	background: rgba(25,25,25,0.6);
-	padding: 30px;
-}
 
-footer img {
-	box-shadow: none;
-	display: inline;
-	border-radius: 5px;
-	width: 80px;
-	margin: 0 auto 10px;
-}
-
-.column {
-  float: left;
-  width: 50%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
