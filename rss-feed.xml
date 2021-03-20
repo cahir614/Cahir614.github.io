@@ -1,0 +1,25 @@
+<rss version="2.0">
+
+<channel>
+
+<title>This is my Web Page</title>
+
+<link>http://cahir614.github.io/</link>
+
+<description> Read more to learn about my corporation that makes lots of little widgets for your pets! </description>
+
+<language>en-us</language>
+
+<item>
+
+<title> This is my First Article </title>
+
+<link>http://cahir614.github.io/Sushi/</link>
+
+<description> CMake Sushi </description>
+
+</item>
+
+</channel>
+
+</rss>
