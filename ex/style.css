@@ -3,18 +3,18 @@ body {
 	color: #545454;
 	background-color: #FFF9ED;
 	font-family: Georgia, serif;
-	text-align: center-left;
+	text-align: center;
 	margin: 10px 70px 10px 70px;  /*top right bottom left*/
 }
 
 div a {
 	color: #545454;
 }
-
+/*
 lolzhome {
 	text-align: center;
 }
-
+*/
 img {
 	border-radius: 10%;
 	box-shadow: 10px 10px 5px grey;
