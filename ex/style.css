@@ -10,11 +10,7 @@ body {
 div a {
 	color: #545454;
 }
-/*
-lolzhome {
-	text-align: center;
-}
-*/
+
 img {
 	border-radius: 10%;
 	box-shadow: 10px 10px 5px grey;
@@ -31,7 +27,6 @@ footer {
 	background: #FFCE75;
 	color: #545454;
 	padding: 40px;
-	text-align: center;
 }
 
 footer img {
