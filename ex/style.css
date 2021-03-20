@@ -3,10 +3,12 @@ body {
 	color: #545454;
 	background-color: #FFF9ED;
 	font-family: Georgia, serif;
-	text-align: center;
+	text-align: center-left;
 	margin: 10px 70px 10px 70px;  /*top right bottom left*/
 }
-
+lolzhome {
+	text-align: center;
+}
 div a {
 	color: #545454;
 }
