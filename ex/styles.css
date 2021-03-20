@@ -10,19 +10,18 @@ body {
 	background-size: cover;
 }
 
-
-img {
-	border-radius: 10%;
-	box-shadow: 10px 10px 5px black;
-}
-
-food {
+footer {
 	color: #f0ede6;
 	box-shadow: 10px 10px 5px black;
-	width: 50%;
-	border-radius: 30%;
-	padding: 10px;
-	background: rgba(25,25,25,0.6);
+	border-radius: 20%;
+	background: rgba(25,25,25,0.9);
+	padding: 100px;
+}
+h0 {
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size:4rem;
+	text-shadow: 2px 2px 2px #000000;
 }
 
 
