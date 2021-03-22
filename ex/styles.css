@@ -19,6 +19,7 @@ footer {
 }
 
 food {
+	text-align: center;
 	color: #C9B2D9;
 	box-shadow: 10px 10px 5px black;
 	border-radius: 30%;
