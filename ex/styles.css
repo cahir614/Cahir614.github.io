@@ -1,5 +1,5 @@
 body {
-	color: #f0ede6;
+	color: #C9B2D9;
 	font-family: Georgia, serif;
 	text-align: center-left;
 	margin: 10px 70px 10px 70px;  /*top right bottom left*/
@@ -11,7 +11,7 @@ body {
 }
 
 footer {
-	color: #f0ede6;
+	color: #C9B2D9;
 	box-shadow: 10px 10px 5px black;
 	border-radius: 20%;
 	background: rgba(51,51,51,0.9);
