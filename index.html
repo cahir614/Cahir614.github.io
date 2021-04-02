@@ -10,6 +10,9 @@
 </head>
 
 <body>
+<div class="loader">
+  Your Content For Load Screen
+</div>
 	<footer><h0>Rezepte</h0></footer>
 	<div class="row">
 		<div class="column">
@@ -77,5 +80,36 @@
 	
 	</footer>
 </body>
+<style>
+.loader {
+    -webkit-animation: load-out 1s;
+    animation: load-out 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
 
+@-webkit-keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+</style>
 </html>
