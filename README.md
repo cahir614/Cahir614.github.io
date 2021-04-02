@@ -9,4 +9,4 @@ Verfügbar unter:
 * [https://cahir614.github.io/](https://cahir614.github.io/)
 * [http://phschrauth.de/](http://phschrauth.de/) (redirect to netlify)
 
-
+---
