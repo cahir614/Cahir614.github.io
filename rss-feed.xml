@@ -30,5 +30,29 @@
 <description>Rezept von Nils</description>
 </item>
 
+<item>
+<title>Veganer Käsekuchen</title>
+<link>/VeganerKaesekuchen/</link>
+<description>Rezept von Emily</description>
+</item>
+
+<item>
+<title>Vegane Cupcakes</title>
+<link>/VeganeCupcakes/</link>
+<description>Rezept von Emily</description>
+</item>
+
+<item>
+<title>Vegane Butterplätzchen</title>
+<link>/VeganeButterplaetzchen/</link>
+<description>Rezept von Emily</description>
+</item>
+
+<item>
+<title>Salat mit Grillspieß</title>
+<link>/SalatMitGrillspieß/</link>
+<description>Rezept von Emily</description>
+</item>
+
 </channel>
 </rss>
