@@ -8,6 +8,8 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+    background-filter: blur(8px);
+        -webkit-filter: blur(8px);
 }
 
 a {
@@ -17,8 +19,6 @@ a {
 img {
 	border-radius: 10%;
 	box-shadow: 10px 10px 5px black;
-    filter: blur(8px);
-        -webkit-filter: blur(8px);
 }
 
 h0 {
