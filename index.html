@@ -11,8 +11,12 @@
 </head>
 
 <body>
-<div id="overlay">
-  <div id="overlay-content">This will all vanish in 5 seconds ...</div>
+    <div class="overlay">
+		<div class="overlay-inner">
+				<div class="message">
+						<p>Lorem ipsum dolor sit amet consecetueur adispicing elit amet. Lorem ipsum dolor sit amet consecetueur <a href="#">adispicing elit</a> amet.Lorem ipsum dolor sit amet consecetueur adispicing elit amet.Lorem ipsum dolor sit amet consecetueur adispicing elit amet. </p>
+				</div>
+		</div>
 </div>
 	<footer><h0>Rezepte</h0></footer>
 	<div class="row">
@@ -80,29 +84,5 @@
 	</address>
 	
 	</footer>
-<script type='text/javascript'>//<![CDATA[ 
-$(window).load(function(){
-$.fn.center = function () {
-  this.css("position","absolute");
-  this.css("top", Math.max(0, (
-    ($(window).height() - $(this).outerHeight()) / 2) + 
-     $(window).scrollTop()) + "px"
-  );
-  this.css("left", Math.max(0, (
-    ($(window).width() - $(this).outerWidth()) / 2) + 
-     $(window).scrollLeft()) + "px"
-  );
-  return this;
-}
-
-$("#overlay").show();
-$("#overlay-content").show().center();
-
-setTimeout(function(){    
-  $("#overlay").fadeOut();
-}, 5000);
-});//]]>  
-
-</script>
 </body>
 </html>
