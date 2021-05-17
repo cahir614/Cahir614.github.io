@@ -11,7 +11,7 @@ body {
 }
 
 a {
-	color: #f0ede6;
+	color: #C93673;
 }
 
 img {
@@ -26,6 +26,7 @@ h0 {
 }
 
 chap {
+	color: #C93673;
 	box-shadow: 10px 10px 5px black;
 	width: 50%;
 	border-radius: 30%;
