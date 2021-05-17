@@ -19,7 +19,10 @@ h0 {
 	text-shadow: 2px 2px 2px #000000;
 }
 
-ul {
-	display: table;
-	margin: 0 auto;
+code {
+	font-family: Consolas,"courier new";
+	color: crimson;
+	background-color: #f1f1f1;
+	padding: 2px;
+	font-size: 105%;
 }
