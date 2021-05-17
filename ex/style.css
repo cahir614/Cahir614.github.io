@@ -17,10 +17,9 @@ img {
 
 ul {
 	color: #C93673;
-	column-count: 2 ;
 	text-align: left;
-/*	display: table;
-	margin: 0 auto;*/
+	display: table;
+	margin: 0 auto;
 }
 
 h0 {
