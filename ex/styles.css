@@ -13,6 +13,9 @@ footer {
 	background: rgba(51,51,51,0.6);
 }
 
+h1 {
+	text-align: center;
+}
 
 h0 {
 	font-size: 4rem;
