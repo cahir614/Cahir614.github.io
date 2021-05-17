@@ -3,7 +3,8 @@ body {
 	background-color: #181818;
 	font-family: Georgia, serif;
 	text-align: justify;
-	margin: 10px 25% 10px 25%;  /*top right bottom left*/
+	text-margin: 25%;
+	margin: 10px 10px 10px 10px;  /*top right bottom left*/
 }
 
 footer {
@@ -21,5 +22,5 @@ h0 {
 
 code {
 	font-family: Source Code Pro,"courier new";
-	font-size: 105%;
+	font-size: 102%;
 }
