@@ -17,10 +17,8 @@ img {
 
 ul {
 	color: #C93673;
-	border-left: 5px solid red;
-	background-color: #f1f1f1;
-	list-style-type: none;
-	padding: 10px 20px;
+	display: table;
+	margin: 0 auto;
 }
 
 h0 {
