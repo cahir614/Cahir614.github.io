@@ -1,6 +1,7 @@
 body {
 	color: #f0ede6;
 	background-color: #181818;
+	width: 50%;
 	font-family: Georgia, serif;
 	text-align: justify;
 	margin: 10px 10px 10px 10px;  /*top right bottom left*/
