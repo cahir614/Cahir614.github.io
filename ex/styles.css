@@ -2,7 +2,7 @@ body {
 	color: #f0ede6;
 	font-family: Georgia, serif;
 	text-align: center-left;
-	margin: 10px 70px 10px 70px;  /*top right bottom left*/
+	margin: 10px 10px 10px 10px;  /*top right bottom left*/
 	background-image: url("/ex/pin2.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -22,5 +22,3 @@ h0 {
 	font-size: 4rem;
 	text-shadow: 2px 2px 2px #000000;
 }
-
-
