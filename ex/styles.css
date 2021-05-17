@@ -1,13 +1,13 @@
 body {
 	color: #f0ede6;
+	background-color: #181818;
 	font-family: Georgia, serif;
 	text-align: center;
 	margin: 10px 10px 10px 10px;  /*top right bottom left*/
-	background-image: url("/ex/bg.png");
-	background-position: center center;
+/*	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 footer {
