@@ -37,3 +37,7 @@ th {
 	border: 1px solid black;
 	width: 33%;
 }
+
+table {
+	width: 100%;
+}
