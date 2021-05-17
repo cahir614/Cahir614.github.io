@@ -12,7 +12,6 @@
 		<footer>
 			<h0>Groff</h0>
 			<p><a href="/">zurück</a></p>
-			<img src="/ex/bgb.png" alt="groff" width="240" height="135">
 
 			<h1>ms - macros</h1>
 			<h3>
@@ -28,6 +27,17 @@
 				<p>Author </p>
 				<p><code>.AI</code></p>
 				<p>Authors Institution</p>
+				<p><code>.DA</code></p>
+				<p>Date on title page and footers</p>
+				<p><code>.ND</code></p>
+				<p>Date on title page</p>
+				<p><code>.1C</code></p>
+				<p>one column layout</p>
+				<p><code>.2C</code></p>
+				<p>two column layout</p>
+				<p><code>.MC</code></p>
+				<p><code>[width[gutter]]</code></p>
+				<p>Multi column layout</p>
 			</h4>
 			<h1>Abstract</h1>
 			<h4>
@@ -36,7 +46,7 @@
 				<p>No suppresses the Headline "Abstract".</p>
 				<p><code>.AE</code></p>
 			</h4>
-			<h1>Document Information</h1>
+			<h1>Paragraphs</h1>
 			<h4>
 				<p><code>.PP</code></p>
 				<p>This is a paragraph with indention.</p>
@@ -47,15 +57,59 @@
 				<p><code>.XP</code></p>
 				<p>First line begins at the left margin (Opposite as PP)</p>
 			</h4>
-			<h1>Document Information</h1>
+			<h1>Headings</h1>
 			<h4>
 				<p><code>.NH xx</code></p>
 				<p>Numbered heading level xx</p>
-				<p><code>.SH</code></p>
-				<p>unnumbered heading</p>
+				<p><code>.SH xx</code></p>
+				<p>unnumbered heading level xx</p>
+				<p><code>.LH</code></p>
+				<p>left heading</p>
+				<p><code>.CH</code></p>
+				<p>center heading</p>
+				<p><code>.RH</code></p>
+				<p>right heading</p>
+				<p><code>.LF</code></p>
+				<p>left footer</p>
+				<p><code>.CF</code></p>
+				<p>center footer</p>
+				<p><code>.RF</code></p>
+				<p>right footer</p>
 			</h4>
+			<h1>Highlighting</h1>
+			<h4>
+				<p><code>.B bold ) (</code></p>
+				<p><code>.R roman ) (</code></p>
+				<p><code>.I italic ) (</code></p>
+				<p><code>.CW "constant width face" ) (</code></p>
+				<p><code>.BI "Bold Italic" ) (</code></p>
+				<p><code>.BX "Box around text"</code></p>
+				<p><code>.UL Underlined</code></p>
+				<p><code>.LG</code></p>
+				<p>Text gets larger</p>
+				<p><code>.SM</code></p>
+				<p>Text gets smaller</p>
+			</h4>
+			<h1>eqn</h1>
+			<h3>
+				<p>compiled with</p>
+				<p><code>$ groff -m ms -e index.ms -T pdf > index.pdf </code></p>
+			</h3>
 
-		</footer>
+			<h1>Document Information</h1>
+			<h4>
+				<p><code>.EQ [align]</code></p>
+				<p>align can be left, center, right</p>
+				<p><code>2 sup 10 = 1024</code></p>
+				<p><code>.EN</code></p>
+				<p><code>.EQ </code></p>
+				<p><code>3 times 4 = 12</code></p>
+				<p><code>.EN</code></p>
+				<p><code>.EQ </code></p>
+				<p><code>s = sqrt { { sum from i=1 to N ( x sub i - x bar ) sup 2 } over { N - 1 } }
+</code></p>
+				<p><code>.EN</code></p>
+			</h4>
+			</footer>
 	</body>
-
 </html>
