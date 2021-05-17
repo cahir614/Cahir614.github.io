@@ -29,7 +29,11 @@ code {
 	font-size: 102%;
 }
 
-table, th, td {
+td, th {
 	border: 1px solid black;
-	width: 80%;
+}
+
+th {
+	border: 1px solid black;
+	width: 33%;
 }
