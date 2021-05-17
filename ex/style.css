@@ -18,9 +18,9 @@ img {
 ul {
 	color: #C93673;
 	column-count: 2 ;
-	display: table;
 	text-align: left;
-	margin: 0 auto;
+/*	display: table;
+	margin: 0 auto;*/
 }
 
 h0 {
