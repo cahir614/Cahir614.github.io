@@ -1,37 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Groff</title>
-	<meta name="description" content="Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output. Output may be PostScript or PDF, html, or ASCII/UTF8 for display at the terminal. Formatting commands may be either low-level typesetting requests (“primitives”) or macros from a supplied set.">
-	<link rel="stylesheet" href="/ex/styles.css">
-	<link rel="icon" href ="favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-</head>
+	<head>
+		<title>Groff</title>
+		<meta name="description" content="Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output. Output may be PostScript or PDF, html, or ASCII/UTF8 for display at the terminal. Formatting commands may be either low-level typesetting requests (“primitives”) or macros from a supplied set.">
+		<link rel="stylesheet" href="/ex/styles.css">
+		<link rel="icon" href ="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	</head>
 
-<body>
-	<footer>
-	<h0>Groff</h0>
-	<p><a href="/">zurück</a></p>
-	<img src="/ex/bgb.png" alt="groff" width="240" height="135">
+	<body>
+		<footer>
+			<h0>Groff</h0>
+			<p><a href="/">zurück</a></p>
+			<img src="/ex/bgb.png" alt="groff" width="240" height="135">
 
-	<h1>ms - macros</h1>
-	<h3>
-	<p>compiled with</p>
-	<p><code>$ groff -m ms index.ms -T pdf > index.pdf </code></p>
-	</h3>
+			<h1>ms - macros</h1>
+			<h3>
+				<p>compiled with</p>
+				<p><code>$ groff -m ms index.ms -T pdf > index.pdf </code></p>
+			</h3>
 
-	<h2>Document Information</h2>
-	<h4>
-		<code>
-		<p>.TL</p>
-		<p>Title</p>
-		<p>.AU</p>
-		<p>Author </p>
-		<p>.AI</p>
-		<p>Authors Institution</p>
-		</code>
-	</h4>
-	</footer>
-</body>
+			<h2>Document Information</h2>
+			<h4>
+				<code>
+					<p>.TL</p>
+					<p>Title</p>
+					<p>.AU</p>
+					<p>Author </p>
+					<p>.AI</p>
+					<p>Authors Institution</p>
+				</code>
+			</h4>
+			<h2>Abstract</h2>
+			<h4>
+				<code>
+					<p>.AB [no]</p>
+					<p>Here is place for your Abstract</p>
+					<p>No suppresses the Headline "Abstract".</p>
+					<p>.AE</p>
+				</code>
+			</h4>
+			<h2>Document Information</h2>
+			<h4>
+				<code>
+					<p>.PP</p>
+					<p>This is a paragraph with indention.</p>
+					<p>.LP</p>
+					<p>This is a paragraph without indention.</p>
+					<p>.QP</p>
+					<p>Creates left and right margin</p>
+					<p>.XP</p>
+					<p>First line begins at the left margin (Opposite as PP)</p>
+				</code>
+			</h4>
+			<h2>Document Information</h2>
+			<h4>
+				<code>
+					<p>.NH xx</p>
+					<p>Numbered heading level xx</p>
+					<p>.SH</p>
+					<p>unnumbered heading</p>
+				</code>
+			</h4>
+
+		</footer>
+	</body>
 
 </html>
