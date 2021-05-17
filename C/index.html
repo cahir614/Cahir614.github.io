@@ -13,19 +13,23 @@
 			<h0>C</h0>
 			<p><a href="/">zurück</a></p>
 
-			<h1>Data Types</h1>
 			<h3>
 				<p>gcc flags</p>
 				<p><code>$ gcc -std=c99 -Wall -Wextra -O3 -D_POSIX_C_SOURCE=200809L</code></p>
 			</h3>
 
-			<h1>Document Information</h1>
+			<h1>Data Types</h1>
 			<h4>
 				<table>
 					<tr>
 						<th>data type</th>
 						<th>size</th>
 						<th>range</th>
+					</tr>
+					<tr>
+						<td>_Bool</td>
+						<td>1 byte</td>
+						<td>0 and 1</td>
 					</tr>
 					<tr>
 						<td>char</td>
@@ -38,9 +42,19 @@
 						<td>0 and 255</td>
 					</tr>
 					<tr>
+						<td>short</td>
+						<td>2 byte</td>
+						<td>-32,768 and 32,767</td>
+					</tr>
+					<tr>
+						<td>unsigned short</td>
+						<td>2 byte</td>
+						<td>0 and 65,535</td>
+					</tr>
+					<tr>
 						<td>int</td>
-						<td>2 or 4 bytes</td>
-						<td>range</td>
+						<td>4 bytes</td>
+						<td>-2,147,483,648 and 2,147,483,647</td>
 					</tr>
 					<tr>
 						<td>unsigned int</td>
@@ -49,44 +63,16 @@
 					</tr>
 					<tr>
 						<td>long</td>
-						<td>4 bytes</td>
-						<td>range</td>
+						<td>8 bytes</td>
+						<td>-9,223,372,036,854,775,808 and 9,223,372,036,854,775,807</td>
 					</tr>
 					<tr>
 						<td>unsigned long</td>
-						<td>4 bytes</td>
-						<td>range</td>
-					</tr>
-					<tr>
-						<td>long long</td>
 						<td>8 bytes</td>
-						<td>range</td>
-					</tr>
-					<tr>
-						<td>unsigned long long</td>
-						<td>8 bytes</td>
-						<td>range</td>
+						<td>0 and 18,446,744,073,709,551,615</td>
 					</tr>
 				</table>
 
-			</h4>
-			<h1>Abstract</h1>
-			<h4>
-				<p><code>.AB [no]</code></p>
-				<p>Here is place for your Abstract</p>
-				<p>No suppresses the Headline "Abstract".</p>
-				<p><code>.AE</code></p>
-			</h4>
-			<h1>Paragraphs</h1>
-			<h4>
-				<p><code>.PP</code></p>
-				<p>This is a paragraph with indention.</p>
-				<p><code>.LP</code></p>
-				<p>This is a paragraph without indention.</p>
-				<p><code>.QP</code></p>
-				<p>Creates left and right margin</p>
-				<p><code>.XP</code></p>
-				<p>First line begins at the left margin (Opposite as PP)</p>
 			</h4>
 			<h1>Headings</h1>
 			<h4>
@@ -113,31 +99,6 @@
 				<p><code>.R roman ) (</code></p>
 				<p><code>.I italic ) (</code></p>
 				<p><code>.CW "constant width face" ) (</code></p>
-				<p><code>.BI "Bold Italic" ) (</code></p>
-				<p><code>.BX "Box around text"</code></p>
-				<p><code>.UL Underlined</code></p>
-				<p><code>.LG</code></p>
-				<p>Text gets larger</p>
-				<p><code>.SM</code></p>
-				<p>Text gets smaller</p>
-			</h4>
-			<h1>eqn</h1>
-			<h3>
-				<p>compiled with</p>
-				<p><code>$ groff -m ms -e index.ms -T pdf > index.pdf </code></p>
-			</h3>
-			<h4>
-				<p><code>.EQ [align]</code></p>
-				<p>align can be left, center, right</p>
-				<p><code>2 sup 10 = 1024</code></p>
-				<p><code>.EN</code></p>
-				<p><code>.EQ </code></p>
-				<p><code>3 times 4 = 12</code></p>
-				<p><code>.EN</code></p>
-				<p><code>.EQ </code></p>
-				<p><code>s = sqrt { { sum from i=1 to N ( x sub i - x bar ) sup 2 } over { N - 1 } }
-</code></p>
-				<p><code>.EN</code></p>
 			</h4>
 			</footer>
 	</body>
