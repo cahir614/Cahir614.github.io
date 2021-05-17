@@ -1,4 +1,4 @@
-# Data Types 
+# Data Types
 
 ## Integer
 
@@ -26,4 +26,3 @@
 ```c
 {{#include IO.c}}
 ```
-

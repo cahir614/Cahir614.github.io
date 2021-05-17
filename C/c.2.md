@@ -23,20 +23,12 @@ printf("%d\n", *p); /* 3 */
 in p the address of a is stored.
 \*p is the value of the variable which is stored in p.
 
-with 
+with
 ```c
 *p = 12;
 ```
 you would also change the content of the variable a
 ```c
-printf("%d", a); 
-``` 
-prints 12 
-
-
-
-
-
-
-
-			
+printf("%d", a);
+```
+prints 12
