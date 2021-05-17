@@ -3,7 +3,7 @@ body {
 	font-family: Georgia, serif;
 	text-align: center;
 	margin: 10px 10px 10px 10px;  /*top right bottom left*/
-	background-image: url("/ex/pin3.jpg");
+	background-image: url("/ex/bgb.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -25,7 +25,7 @@ h0 {
 	text-shadow: 2px 2px 2px #000000;
 }
 
-food {
+chap {
 	color: #f0ede6;
 	box-shadow: 10px 10px 5px black;
 	width: 50%;
