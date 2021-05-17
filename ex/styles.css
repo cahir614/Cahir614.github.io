@@ -28,3 +28,8 @@ code {
 	font-family: Source Code Pro,"courier new";
 	font-size: 102%;
 }
+
+table, th, td {
+	border: 1px solid black;
+	width: 100%;
+}
