@@ -22,3 +22,8 @@ h0 {
 	font-size: 4rem;
 	text-shadow: 2px 2px 2px #000000;
 }
+
+ul {
+	display: table;
+	margin: 0 auto;
+}
