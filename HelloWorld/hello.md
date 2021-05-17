@@ -4,53 +4,100 @@ in 13 different languages
 
 ## Rust
 ```rust
-{{#include HELLO/hello.rc}}
+fn main() {
+    println!("Hello World!");
+}
 ```
 ## C
 ```c
-{{#include HELLO/hello.c}}
+#include <stdio.h>
+
+int
+main()
+{
+	printf("Hello, World!\n");
+	return 0;
+}
 ```
 ## C++
 ```cpp
-{{#include HELLO/hello.cpp}}
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
 ```
 ## C\#
 ```csharp
-{{#include HELLO/hello.cs}}
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, world!");
+    }
+}
 ```
 ## x86 Assembly
 ```x86asm
-{{#include HELLO/hello.asm}}
+	global  _main
+	extern  _printf
+
+	section .text
+_main:
+	push    message
+	call    _printf
+	add     esp, 4
+	ret
+message:
+	db  'Hello, World', 10, 0
 ```
 ## Java
 ```java
-{{#include HELLO/Hello.java}}
+public class Hello {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
 ```
 ## Scala
 ```scala
-{{#include HELLO/hello.scala}}
+object HelloWorld extends App {
+  println("Hello, World!")
+}
 ```
 ## Python
 ```python
-{{#include HELLO/hello.py}}
+print("Hello World!")
 ```
 ## bash
 ```bash
-{{#include HELLO/hello.bash}}
+echo "Hello, World!"
 ```
 ## Go
 ```go
-{{#include HELLO/hello.go}}
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World")
+}
 ```
 ## Haskel
 ```hs
-{{#include HELLO/hello.hs}}
+module Main where
+
+main :: IO ()
+main = putStrLn "Hello, World!"
 ```
 ## lua
 ```lua
-{{#include HELLO/hello.lua}}
+print("Hello, World!")
 ```
 ## R
 ```r
-{{#include HELLO/hello.r}}
+cat("Hello world\n")
 ```
